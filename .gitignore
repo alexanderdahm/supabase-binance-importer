@@ -1,0 +1,39 @@
+# Ignore Deno cache and temp files
+deno-dir/
+.deno/
+
+# Ignore node_modules (if any, just in case)
+node_modules/
+
+# Ignore environment files with secrets
+.env
+.env.local
+.env.*.local
+.env.*.secret
+.env.secret
+
+# Ignore logs
+*.log
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore any compiled JS or map files (if generated)
+*.js
+*.js.map
+
+# Ignore supabase artifacts (if any local ones created)
+supabase/migrations/
+supabase/.temp/
+
+# Ignore dist/build folders (if any)
+dist/
+build/
+
+# Ignore npm/yarn lock files if you don't use them
+package-lock.json
+yarn.lock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
